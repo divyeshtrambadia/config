@@ -1,0 +1,49 @@
+{  
+   "collection":[  
+      {  
+         "Role":"Citizen",
+         "ApplicationID":"COUNCIL008",
+         "Android":"Allowed",
+         "ios":"Allowed",
+         "Web":"Allowed",
+         "User Specific":"Yes",
+         "Status":"Active"
+      },
+      {  
+         "Role":"CouncilAdmin",
+         "ApplicationID":"COUNCIL003",
+         "Android":"Allowed",
+         "ios":"Allowed",
+         "Web":"Allowed",
+         "User Specific":"Yes",
+         "Status":"Active"
+      },
+      {  
+         "Role":"CouncilManager",
+         "ApplicationID":"COUNCIL003",
+         "Android":"Allowed",
+         "ios":"Allowed",
+         "Web":"Allowed",
+         "User Specific":"Yes",
+         "Status":"Active"
+      },
+      {  
+         "Role":"Citizen",
+         "ApplicationID":"COUNCIL001",
+         "Android":"Allowed",
+         "ios":"Allowed",
+         "Web":"Allowed",
+         "User Specific":"Yes",
+         "Status":"Active"
+      },
+      {  
+         "Role":"Citizen",
+         "ApplicationID":"COUNCIL005",
+         "Android":"Allowed",
+         "ios":"Allowed",
+         "Web":"Allowed",
+         "User Specific":"Yes",
+         "Status":"Active"
+      }
+   ]
+}
