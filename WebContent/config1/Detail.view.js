@@ -3102,6 +3102,11 @@ sap.ui.jsview("config1.Detail", {
 		
 		return new sap.m.Page({
 			title: "Config File",
+			showNavButton : "{device>/isPhone}",
+			navButtonPress : function() {
+				oController.handleNavButtonPress();
+
+			},
 			content: [objHdr,oITB,editD1,editD2,editD3aii,editD3bii,editD3ei,editD3eii,editD3f,editD3gii,
 			          editD4,editD5a,editD5bi,editD5b,editD5c,editD5ci,
 			          editD6a,editD6b,editD7,editD8,editD9],   
