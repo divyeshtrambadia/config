@@ -3,6 +3,10 @@ sap.ui.controller("config1.Detail", {
 	onInit: function() {
 			var oldValue='';
 	},
+	handleNavButtonPress:function(){
+		var router1= sap.ui.core.UIComponent.getRouterFor(this);
+		router1.navTo("default");
+	},
 
 	onBeforeRendering: function() {
 
