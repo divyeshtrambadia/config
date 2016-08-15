@@ -59,6 +59,14 @@ sap.ui.core.UIComponent.extend("sap.config1.Component",{
     		//initialize router
     		this._routeHandler = new sap.m.routing.RouteMatchedHandler(this._router);
     		this._router.initialize();
+    		
+    		/* Master menu */
+			var deviceModel = new sap.ui.model.json.JSONModel({
+				isPhone : sap.ui.Device.system.phone
+			});
+			this.setModel(deviceModel, "device");
+			/* End master menu */
+    		
         },
         
         createContent: function(){
